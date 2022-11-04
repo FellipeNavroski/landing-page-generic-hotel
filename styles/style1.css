@@ -1,0 +1,205 @@
+.servicos {
+    background-color: #1a3f4f;
+
+}
+
+.servicoshead{
+    display: column;
+    text-align: center;
+}
+
+.servicoshead h2{
+    font-size: 45px;
+    color: #e4a172;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.servicesbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../homeimg/servicebackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servicecard{
+    display: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    margin: 3%;
+    box-shadow: 4px 1px 5px #121212;
+}
+
+.servicecard h2{
+    text-transform: uppercase;
+    color: #1a3f4f;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.servicecard p{
+    color: #69799b;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.servicecard img{
+    width: 100%;
+    border-radius: 14px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.sectionreserva{
+    background-image: url(../homeimg/hotelroom.jpg);
+    background-size: cover;
+    background-position: center;
+    display: wrap;
+    padding-bottom: 70px;
+}
+
+.sectionreserva h2{
+    font-size: 45px;
+    color: #69799b;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:30px ;
+}
+
+.reservahead{
+    padding-top: 50px ;
+    background-color: #1a3f4f;
+    text-align: center;
+}
+
+.reservahead h2{
+    font-size: 45px;
+    color: #e4a172;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.entradas{
+    margin-top: -10px;
+}
+
+.reservabox{
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+    box-shadow: 4px 1px 5px #121212;
+    border-radius: 20px;
+}
+
+.reservabox input{
+    padding: 10px;
+    border: 2px solid #1a3f4f;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    margin: 10px;
+    font-weight: bold;
+    outline: none;
+    color: #1a3f4f;
+
+}
+
+.reservabox label{
+    font-weight: bold;
+    color: #1a3f4f;
+}
+
+.linha3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2%;
+}
+
+.linha3 label{
+    margin-right: 9%;
+}
+
+.linha3 select{
+    padding: 12px;
+    outline: none;
+    border: 2px solid #1a3f4f;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+.linha4{
+    display: block;
+    margin-top: 10px;
+    margin: 20px;
+}
+
+.linha4 .l4label{
+    padding: 10px;
+    display: block;
+}
+
+.l4label{
+    font-size: 20px;
+}
+
+#submitr{
+    background-image: linear-gradient(30deg, #793728 40%, #88481b 60%);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ede8d4;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer{
+    background-image: linear-gradient(36deg, #1a3f4f,#16aef0);
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ede8d4;
+    border-top: 2px solid #793728;
+}
+
+.logofooter{
+    padding-top: 50px;
+    color: #ede8d4;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logofooter img{
+    height: 100px;
+}
+
+.infofooter{
+    font-size: 15px;
+}
+
+.linguagens img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+}
